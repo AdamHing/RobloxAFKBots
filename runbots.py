@@ -3,7 +3,6 @@ import pandas as pd
 import time
 import psutil 
 import pyautogui
-import subprocess as sp
 import os
 
 

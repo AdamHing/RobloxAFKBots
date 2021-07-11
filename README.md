@@ -1,7 +1,7 @@
 ﻿# RobloxAFKBots
  Automaticaly logs a bunch of bot accounts into Roblox, joins a game and walks back and forth to avoid AFK detection.
  
- 
+ https://www.linkedin.com/in/adam-hing-89354b1b1/
  
 ## How to install
 
@@ -27,5 +27,8 @@ To change what game you want the bots to join go to *runbots.py* line 42 and edi
 
 There might be some issues with the accounts since I did make them public so you might need to make some bot accounts yourself.
 
+
+# FYI
+This app only works on Windows
 
 

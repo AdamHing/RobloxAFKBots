@@ -28,7 +28,7 @@ To change what game you want the bots to join go to *runbots.py* line 42 and edi
 There might be some issues with the accounts since I did make them public so you might need to make some bot accounts yourself.
 
 
-# FYI
+## FYI
 This app only works on Windows
 
 

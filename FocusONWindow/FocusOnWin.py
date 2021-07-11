@@ -1,6 +1,7 @@
 import psutil 
 import time
 
+
 import movePlayer as mp
 
 def check_process_status(process_name):
@@ -21,7 +22,7 @@ while 1:
 
         pidforlib = str(current_process.pid)
 
-        openlib = "C:/ProgramData/Anaconda3/python.exe D:/RobloxCreations/FocusONWindow/focuslib.py -p " + pidforlib 
+        openlib = "python focuslib.py -p " + pidforlib 
         psutil.Popen(openlib)
         time.sleep(2)
         mp.forward()

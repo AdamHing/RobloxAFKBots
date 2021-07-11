@@ -3,6 +3,11 @@ import pandas as pd
 import time
 import psutil 
 import pyautogui
+import subprocess as sp
+import os
+
+
+os.startfile('Multiple_ROBLOX.exe')
 
 data = pd.read_excel(r'RobloxAccountsTest.xlsx')
 names = pd.DataFrame(data,columns=['names'])
@@ -64,5 +69,5 @@ print("All bots online.")
 time.sleep(5)
 #focus on window for afkness
 
-FocusOnWin = "C:/ProgramData/Anaconda3/python.exe D:\RobloxCreations\FocusONWindow\FocusOnWin.py"
+FocusOnWin = "python RobloxAFKBots\FocusONWindow\FocusOnWin.py"
 psutil.Popen(FocusOnWin)

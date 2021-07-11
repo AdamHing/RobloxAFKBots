@@ -10,3 +10,7 @@ pip install PyDirectInput psutil selenium
 ```
 
  selenium setup : https://medium.com/@asheeshmisra29/web-automation-selenium-webdriver-and-python-getting-started-part-1-157be93049d7
+
+
+
+![GitHub Logo](/img/bots.PNG)

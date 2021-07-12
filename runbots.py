@@ -6,14 +6,15 @@ import pyautogui
 import os
 
 
-os.startfile('Multiple_ROBLOX.exe')
+os.startfile('Multiple_ROBLOX.exe') #runs program to allow multiple roblox windows
 
+#gets username and password form xlsx 
 data = pd.read_excel(r'RobloxAccountsTest.xlsx')
 names = pd.DataFrame(data,columns=['names'])
 passwords = pd.DataFrame(data,columns=['passwords'])
 
 nameList = names.values.tolist()
-passwordList = passwords.values.tolist()
+passwordList = passwords.values.tolist() 
 
 print(nameList)
 print('')
@@ -21,7 +22,7 @@ print(passwordList)
 
 print("Wazzup my homi")
 
-
+#enters username and password into roblox and goes to the game link.
 for x,y in zip(nameList, passwordList):
     
     time.sleep(1)
@@ -50,7 +51,7 @@ for x,y in zip(nameList, passwordList):
 
         time.sleep(3)
 
-        start = pyautogui.locateCenterOnScreen('OpenRoblox.PNG')#If the file is not a png file it will not work
+        start = pyautogui.locateCenterOnScreen('OpenRoblox.PNG')#clicks the "open roblox" popup
         print(start)
         time.sleep(2)
         pyautogui.moveTo(start)
@@ -66,7 +67,7 @@ for x,y in zip(nameList, passwordList):
 
 print("All bots online.")
 time.sleep(5)
-#focus on window for afkness
 
+#focus on window for afkness
 FocusOnWin = "python RobloxAFKBots\FocusONWindow\FocusOnWin.py"
 psutil.Popen(FocusOnWin)

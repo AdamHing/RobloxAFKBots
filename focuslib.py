@@ -2,6 +2,8 @@ import win32gui
 import win32process
 import argparse
 
+#this code cycles through all the roblox instances by their pid and focuses on the window.
+
 ap=argparse.ArgumentParser()
 ap.add_argument("-p", "--pid", type=int, required=True,help="the pid")
 
@@ -20,7 +22,5 @@ def enum_window_callback(hwnd, pid):
         win32gui.SetForegroundWindow(hwnd)
         print("window activated") 
     
-
-
 
 win32gui.EnumWindows(enum_window_callback,pids)

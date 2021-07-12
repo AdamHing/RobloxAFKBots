@@ -1,7 +1,6 @@
 import psutil 
 import time
-
-
+#imports module for moveing the character
 import movePlayer as mp
 
 def check_process_status(process_name):

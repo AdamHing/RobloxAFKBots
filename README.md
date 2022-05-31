@@ -32,3 +32,6 @@ There might be some issues with the accounts since I did make them public so you
 This app only works on Windows
 
 
+A updated version of this is currently in the works. With a bunch more features and more power.
+
+

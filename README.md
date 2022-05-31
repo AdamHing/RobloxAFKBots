@@ -27,11 +27,15 @@ To change what game you want the bots to join go to *runbots.py* line 42 and edi
 
 There might be some issues with the accounts since I did make them public so you might need to make some bot accounts yourself.
 
+##
+
+A updated version of this is currently in the works. With a bunch more features and much more power.
+Its still early but you can take a peak if you want.
+https://github.com/AdamHing/ROBO
 
 ## FYI
 This app only works on Windows
 
 
-A updated version of this is currently in the works. With a bunch more features and more power.
 
 
